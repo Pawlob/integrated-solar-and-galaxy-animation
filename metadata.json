@@ -1,0 +1,5 @@
+{
+  "name": "Interactive 3D Spline Demo",
+  "description": "A demo showcasing an interactive 3D Spline scene with a spotlight effect.",
+  "requestFramePermissions": []
+}

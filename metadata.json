@@ -1,5 +1,6 @@
 {
-  "name": "Interactive 3D Spline Demo",
-  "description": "A demo showcasing an interactive 3D Spline scene with a spotlight effect.",
-  "requestFramePermissions": []
+  "name": "Blank Canvas",
+  "description": "A clean starting point ready for your instructions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

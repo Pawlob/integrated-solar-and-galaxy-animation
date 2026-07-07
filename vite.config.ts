@@ -5,6 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Relative base: assets resolve at any URL depth (GitHub Pages serves
+    // the site under /repo-name/).
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

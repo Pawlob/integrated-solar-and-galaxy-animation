@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+/* Overscroll (rubber-band bounce past the top/bottom edge) briefly
+   reveals the raw page background — default white — before snapping
+   back. Matching it to the scene's near-black keeps the bounce seamless
+   instead of flashing white. */
+html,
+body {
+  background-color: #050505;
+}
+
+/* Scroll-reveal: elements fade up into place as they enter the viewport. */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: none;
+}
